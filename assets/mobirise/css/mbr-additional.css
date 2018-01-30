@@ -524,15 +524,15 @@ a:hover {
   display: none !important;
 }
 #menu2-3 .navbar-toggler {
-  color: #74a3c7;
+  color: #2d2d2d;
 }
 #menu2-3 .close-icon::before,
 #menu2-3 .close-icon::after {
-  background-color: #74a3c7;
+  background-color: #2d2d2d;
 }
 #menu2-3 .link,
 #menu2-3 .dropdown-item {
-  color: #74a3c7;
+  color: #2d2d2d;
   font-family: 'Raleway', sans-serif;
 }
 #menu2-3 .link {
@@ -552,7 +552,7 @@ a:hover {
 }
 #menu2-3 .dropdown-item:hover,
 #menu2-3 .dropdown-item:focus {
-  color: #74a3c7;
+  color: #2d2d2d;
 }
 #menu2-3 .link[aria-expanded="true"],
 #menu2-3 .dropdown-menu {
@@ -571,7 +571,7 @@ a:hover {
   background: #fff;
 }
 #menu2-3 .bg-color.transparent .link {
-  color: #74a3c7;
+  color: #2d2d2d;
   transition: none;
 }
 #menu2-3 .bg-color.transparent.opened .link {
@@ -591,4 +591,18 @@ a:hover {
 #menu2-3 .navbar-caption SPAN {
   font-size: 22px;
   font-family: 'Raleway', sans-serif;
+}
+#form3-5 .card {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+#form3-5 .card-img a {
+  color: #616161;
+  border-color: #616161;
+  border-width: 2px;
+  line-height: 72px;
+}
+#form3-5 .heading {
+  background: #447eaa;
 }
