@@ -114,7 +114,7 @@
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#fff",
             "fontSize": "1",
             "imageSize": "5",
