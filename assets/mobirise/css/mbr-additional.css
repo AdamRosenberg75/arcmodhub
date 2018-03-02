@@ -577,17 +577,29 @@ a:hover {
 #menu1-0 .dropdown-item[aria-expanded="true"] {
   color: #f38d39!important;
 }
-#features19-k .mbr-iconfont {
-  background: #f38d39;
-  border-color: #f38d39;
+#content8-9 P {
+  font-size: 22px;
 }
 #features6-2 .mbr-iconfont {
   color: #f38d39;
   border-color: #f38d39;
 }
+#features19-k .mbr-iconfont {
+  background: #f38d39;
+  border-color: #f38d39;
+}
 #features9-l .mbr-iconfont {
   color: #f38d39;
   border-color: #f38d39;
+}
+#features9-l .heading-text {
+  text-align: left;
+}
+#features9-l .card-text {
+  text-align: left;
+}
+#features9-l .card-title {
+  text-align: left;
 }
 #footer4-8 p {
   color: #000;
