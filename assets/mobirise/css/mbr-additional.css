@@ -524,15 +524,15 @@ a:hover {
   display: none !important;
 }
 #menu2-3 .navbar-toggler {
-  color: #2d2d2d;
+  color: #616161;
 }
 #menu2-3 .close-icon::before,
 #menu2-3 .close-icon::after {
-  background-color: #2d2d2d;
+  background-color: #616161;
 }
 #menu2-3 .link,
 #menu2-3 .dropdown-item {
-  color: #2d2d2d;
+  color: #616161;
   font-family: 'Raleway', sans-serif;
 }
 #menu2-3 .link {
@@ -552,26 +552,26 @@ a:hover {
 }
 #menu2-3 .dropdown-item:hover,
 #menu2-3 .dropdown-item:focus {
-  color: #2d2d2d;
+  color: #616161;
 }
 #menu2-3 .link[aria-expanded="true"],
 #menu2-3 .dropdown-menu {
-  background: #ffffff;
+  background: #dfd9ca;
 }
 #menu2-3 .nav-dropdown-sm .link:focus,
 #menu2-3 .nav-dropdown-sm .link:hover,
 #menu2-3 .nav-dropdown-sm .dropdown-item:focus,
 #menu2-3 .nav-dropdown-sm .dropdown-item:hover {
-  background: #f7f7f7!important;
+  background: #d9d2c0!important;
 }
 #menu2-3 .navbar,
 #menu2-3 .nav-dropdown-sm,
 #menu2-3 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu2-3 .nav-dropdown-sm .dropdown-menu {
-  background: #fff;
+  background: #dfd9ca;
 }
 #menu2-3 .bg-color.transparent .link {
-  color: #2d2d2d;
+  color: #616161;
   transition: none;
 }
 #menu2-3 .bg-color.transparent.opened .link {
@@ -592,17 +592,34 @@ a:hover {
   font-size: 22px;
   font-family: 'Raleway', sans-serif;
 }
-#form3-5 .card {
-  background-color: transparent;
-  box-shadow: none;
-  border: none;
+#header3-8 H3 {
+  text-align: left;
 }
-#form3-5 .card-img a {
-  color: #616161;
-  border-color: #616161;
-  border-width: 2px;
-  line-height: 72px;
+#features9-g .mbr-iconfont {
+  color: #f38d39;
+  border-color: #f38d39;
 }
-#form3-5 .heading {
-  background: #447eaa;
+#features18-e .card .mbr-iconfont {
+  color: #fff;
+  border-color: #fff;
+}
+#features18-e .mbr-table-cell {
+  vertical-align: middle;
+}
+#features15-f .mbr-iconfont {
+  background: #f38d39;
+  border-color: #f38d39;
+}
+#features21-d .card .mbr-iconfont {
+  background: #f38d39;
+  border-color: #f38d39;
+}
+#features21-d .mbr-table-cell {
+  vertical-align: middle;
+}
+#msg-box1-a H1 {
+  color: #333333;
+}
+#counters1-c .count {
+  color: #74a3c7;
 }
