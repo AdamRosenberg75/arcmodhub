@@ -53,13 +53,13 @@
               "display": "none !important"
             },
             ".navbar-toggler": {
-              "color": "#527d85"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#527d85"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#527d85",
+              "color": "#000000",
               "font-family": "'Libre Franklin', serif"
             },
             ".link": {
@@ -75,7 +75,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#527d85"
+              "color": "#000000"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#ffffff"
@@ -87,7 +87,7 @@
               "background": "#fff"
             },
             ".bg-color.transparent .link": {
-              "color": "#527d85",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -106,7 +106,7 @@
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#fff",
             "fontSize": 0.8125,
             "imageSize": 4,
@@ -115,10 +115,10 @@
               "css": "'Libre Franklin', serif",
               "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
             },
-            "fontColor": "#527d85",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Moderator Hub</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Upskill Program</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"http://africanresearchcouncil.org/moderator-registration/\" target=\"_blank\">REGISTER</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Moderator Hub</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Upskill Program</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">GET IN TOUCH</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"http://africanresearchcouncil.org/moderator-registration/\" target=\"_blank\">REGISTER</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -153,7 +153,7 @@
             "paddingTop": "5",
             "paddingBottom": 1,
             "bgColorRadio": true,
-            "bgColor": "#ffffff"
+            "bgColor": "#fffcf6"
           },
           "media": {
             "image": {
@@ -196,29 +196,31 @@
             "columns": "2",
             "iconsBgColor": "@primaryColor",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
-            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fffffd",
+            "bgColor": "#fffcf6",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
             "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
+            "overlayOpacity": "1"
           },
           "title": "Our Services",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "touch",
-              "link": "https://mobirise.com",
+              "linkInNewWindow": false,
+              "name": "edit",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "http://africanresearchcouncil.org/moderator-registration/",
               "size": 48,
-              "family": "MobiriseIcons"
+              "newWindow": false
             }
           },
           "title1": "ARC MH - The Moderator Hub",
@@ -227,12 +229,12 @@
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "touch-swipe",
-              "link": "https://mobirise.com",
-              "size": 48,
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "lock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 48
             }
           },
           "title2": "ARC UP - Our Upskill Program",
@@ -297,7 +299,7 @@
             "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fffffd",
+            "bgColor": "#fffcf6",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -322,7 +324,7 @@
           },
           "title1": "Moderator Registration",
           "subtitle1": "Awesome",
-          "text1": "Moderators <a href=\"http://africanresearchcouncil.org/moderator-registration/\" target=\"_blank\">register online</a> and provide a detailed biography, skillset list and areas of proficiency. &nbsp;<br>",
+          "text1": "Moderators <a href=\"http://africanresearchcouncil.org/moderator-registration/\" target=\"_blank\" class=\"text-success\">register online</a> and provide a detailed biography, skillset list and areas of proficiency. &nbsp;<br>",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -350,7 +352,7 @@
           },
           "title3": "Moderator Bookings",
           "subtitle3": "Awesome",
-          "text3": "Clients and field managers access the booking portal, define their moderating requirements and timeframes, and book from the pool of moderators best-suited to the project. ",
+          "text3": "Clients and field managers access the <a href=\"mailto:adam+bookingportal@africanresearchcouncil.org\" class=\"text-success\">booking portal</a>, define their moderating requirements and timeframes, and book from the pool of moderators best-suited to the project. ",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
@@ -403,6 +405,9 @@
             ".mbr-iconfont": {
               "background": "@primaryColor",
               "border-color": "@primaryColor"
+            },
+            ".card-text": {
+              "color": "#424242"
             }
           }
         },
@@ -424,7 +429,7 @@
             "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fffffd",
+            "bgColor": "#fffcf6",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -448,7 +453,7 @@
           "title1": "Thabo Mphate",
           "subtitle1": "Awesome",
           "text1": "+27 71-155-0725<br>Clients",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"mailto:adam@africanresearchcouncil.org\">Email Adam</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-success\" href=\"mailto:thabo+clients@africanresearchcouncil.org\">Email Thabo</a>",
           "media2": {
             "image": {
               "src": "@THEME_PATH@/components/_images/features/07.jpg"
@@ -465,7 +470,7 @@
           "title2": "Mpho Matlapeng",
           "subtitle2": "Awesome",
           "text2": "+27 84-555-0786<br>Moderators",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"mailto:mpho@africanresearchcouncil.org\">Email Mpho</a>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-success\" href=\"mailto:mpho+moderators@africanresearchcouncil.org\">Email Mpho</a>",
           "media3": {
             "image": {
               "src": "@THEME_PATH@/components/_images/features/08.jpg"
@@ -481,7 +486,7 @@
           "title3": "Adam Rosenberg",
           "subtitle3": "Awesome",
           "text3": "+27 82-561-2206<br>Operations",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"mailto:thabo@africanresearchcouncil.org\">Email Thabo</a>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-success\" href=\"mailto:adam+operations@africanresearchcouncil.org\">Email Adam</a>",
           "_tags": [
             "Theme"
           ],

@@ -516,15 +516,15 @@ a:hover {
   display: none !important;
 }
 #menu1-0 .navbar-toggler {
-  color: #527d85;
+  color: #000000;
 }
 #menu1-0 .close-icon::before,
 #menu1-0 .close-icon::after {
-  background-color: #527d85;
+  background-color: #000000;
 }
 #menu1-0 .link,
 #menu1-0 .dropdown-item {
-  color: #527d85;
+  color: #000000;
   font-family: 'Libre Franklin', serif;
 }
 #menu1-0 .link {
@@ -544,7 +544,7 @@ a:hover {
 }
 #menu1-0 .dropdown-item:hover,
 #menu1-0 .dropdown-item:focus {
-  color: #527d85;
+  color: #000000;
 }
 #menu1-0 .link[aria-expanded="true"],
 #menu1-0 .dropdown-menu {
@@ -563,7 +563,7 @@ a:hover {
   background: #fff;
 }
 #menu1-0 .bg-color.transparent .link {
-  color: #527d85;
+  color: #000000;
   transition: none;
 }
 #menu1-0 .bg-color.transparent.opened .link {
@@ -587,6 +587,9 @@ a:hover {
 #features19-k .mbr-iconfont {
   background: #f38d39;
   border-color: #f38d39;
+}
+#features19-k .card-text {
+  color: #424242;
 }
 #features9-l .mbr-iconfont {
   color: #f38d39;
