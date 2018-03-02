@@ -1,40 +1,36 @@
 {
   "settings": {
-    "name": "ARC Moderator",
+    "name": "arc-mh",
     "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
       "styling": {
         "primaryColor": "#f38d39",
-        "secondaryColor": "#A25DAE",
-        "successColor": "#1E7C3A",
-        "infoColor": "#74a3c7",
-        "warningColor": "#FFD785",
-        "dangerColor": "#FF9685",
+        "secondaryColor": "#527d85",
+        "successColor": "#c55120",
+        "infoColor": "#acb4ac",
+        "warningColor": "#eff5f5",
+        "dangerColor": "#ffd785",
         "titleFont": "Oxygen",
         "subtitleFont": "Libre Franklin",
         "textFont": "Libre Franklin",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
         "#f38d39",
         "#527d85",
-        "#eff5f5",
-        "#631c70",
-        "#232323"
+        "#c55120",
+        "#acb4ac",
+        "#eff5f5"
       ]
     },
     "path": "@PROJECT_PATH@",
-    "favicon": "",
-    "noImageResize": "",
-    "google-analytics": "",
     "versionFirst": "4.6.2",
-    "uniqCompNum": 17,
-    "versionPublish": "4.6.2",
-    "screenshot": "screenshot.png"
+    "uniqCompNum": 22,
+    "versionPublish": "4.6.2"
   },
   "pages": {
     "index.html": {
@@ -53,21 +49,20 @@
               "display": "none !important"
             },
             ".navbar-toggler": {
-              "color": "#616161"
+              "color": "#527d85"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#616161"
+              "background-color": "#527d85"
             },
             ".link, .dropdown-item": {
-              "color": "#616161",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "color": "#527d85",
+              "font-family": "'Libre Franklin', serif"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.8125rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "0.880rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -76,19 +71,19 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#616161"
+              "color": "#527d85"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#dfd9ca"
+              "background": "#ffffff"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#d9d2c0!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#dfd9ca"
+              "background": "#fff"
             },
             ".bg-color.transparent .link": {
-              "color": "#616161",
+              "color": "#527d85",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -99,45 +94,36 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#f38d39!important"
-            },
-            ".navbar-caption": {
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            },
-            ".navbar-caption SPAN": {
-              "font-size": "22px",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_params": {
             "logo": true,
-            "showBrand": false,
-            "hideButtons": false,
+            "showBrand": true,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
-            "bgColor": "#dfd9ca",
-            "fontSize": "1",
-            "imageSize": "5",
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
             "fontName": {
-              "name": "Raleway",
-              "css": "'Raleway', sans-serif",
-              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
-              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
             },
-            "fontColor": "#616161",
+            "fontColor": "#527d85",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">MODERATOR HUB</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"http://africanresearchcouncil.org/moderator-registration/\" target=\"_blank\">REGISTER</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/arc-dark-text-600x300-256x128.png",
+              "src": "@PROJECT_PATH@/assets/images/arc-dark-nametext-600x380-202x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -145,36 +131,25 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span style=\"font-weight: normal;\">MH | Moderator&nbsp;</span><span style=\"font-weight: normal;\">Hub</span><span style=\"font-weight: normal;\"><br></span></a>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MODERATOR HUB</a>",
           "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "menu2",
-          "_anchor": "menu2-3"
+          "_name": "menu1",
+          "_anchor": "menu1-0"
         },
         {
           "_params": {
-            "showTitle": true,
+            "showTitle": false,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "inverse": true,
-            "showArrow": false,
-            "imageSize": "11",
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/header3.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.8
+            "imageSize": "8",
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff"
           },
           "media": {
             "image": {
@@ -192,30 +167,25 @@
               "loop": false
             }
           },
-          "title": "African Research Council",
-          "text": "Solution providers for the market research industry across Africa.<br><br><br><br><br><br><br><br><br><br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a> ",
+          "title": "Download for Windows",
+          "text": "The African Research Council has developed the Moderator Hub with a specific focus on addressing challenges within the market research industry. <br>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-8",
-          "_styles": {
-            "H3": {
-              "text-align": "left"
-            }
-          }
+          "_name": "content8",
+          "_anchor": "content8-9"
         },
         {
-          "_inherit": "features8",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "showHeading": false,
+            "showHeading": true,
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": false,
-            "showFeaturesImages": true,
+            "contentAlign": "center",
+            "columns": 2,
             "iconsBgColor": "@primaryColor",
             "showFeaturesTitles": true,
             "showFeaturesTexts": true,
@@ -233,182 +203,103 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": 0.95
           },
-          "media1": {
-            "image": {
-              "active": false,
-              "src": "@THEME_PATH@/components/_images/features/06.jpg"
-            },
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "touch",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
-            }
-          },
-          "title1": "What is Mobirise",
-          "subtitle1": "Awesome",
-          "text1": "Mobirise is an offline app for Window and Mac",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media2": {
-            "image": {
-              "active": false,
-              "src": "@THEME_PATH@/components/_images/features/07.jpg"
-            },
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "touch-swipe",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
-            }
-          },
-          "title2": "Is it good for me?",
-          "subtitle2": "Awesome",
-          "text2": "Minimalistic, extremely easy-to-use interface",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media3": {
-            "image": {
-              "active": false,
-              "src": "@THEME_PATH@/components/_images/features/08.jpg"
-            },
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "responsive",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
-            }
-          },
-          "title3": "Why Mobirise?",
-          "subtitle3": "Awesome",
-          "text3": "Free for commercial and non-profit use",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "title": "Always on your terms",
-          "text": "Mobirise",
+          "title": "Moderator Hub Services",
+          "text": "<br>Agency and field managers access the booking portal, define their moderating requirements, and book from the pool of moderators best-suited to the project.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "_name": "features9",
-          "_anchor": "features9-g",
-          "_styles": {
-            ".mbr-iconfont": {
-              "color": "@primaryColor",
-              "border-color": "@primaryColor"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgicon": true,
-            "showHeading": false,
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "contentAlign": "center",
-            "columns": 3,
-            "iconsBgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "containerColor1": "#1f242c",
-            "containerColor2": "#3e4757",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#616161",
-            "overlayOpacity": 0.8
-          },
-          "bgicon": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "mobirise",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
-            }
-          },
-          "title": "Features with Gradient Background",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "header": "For business",
           "media1": {
             "iconFont": {
               "active": true,
               "class": "mbr-iconfont",
-              "name": "mobirise",
+              "name": "credit-card",
               "link": "https://mobirise.com",
-              "size": 40,
+              "color": "#222",
               "family": "MobiriseIcons"
             }
           },
-          "number1": "<p>1</p>",
-          "title1": "What is Mobirise",
+          "title1": "Moderator Registration",
           "subtitle1": "Awesome",
-          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "text1": "Moderators register online and provide a detailed biography, skillset list and areas of proficiency. &nbsp;<br>",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
               "active": true,
               "class": "mbr-iconfont",
-              "name": "responsive",
+              "name": "edit",
               "link": "https://mobirise.com",
-              "size": 40,
+              "color": "#222",
               "family": "MobiriseIcons"
             }
           },
-          "number2": "<p>2</p>",
-          "title2": "What is Mobirise",
+          "title2": "Moderator Support",
           "subtitle2": "Awesome",
-          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "text2": "In addition to providing access to a larger pool of potential clientelle, we take care of your scheduling, reminders, invoicing and training opportunities.",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
               "active": true,
               "class": "mbr-iconfont",
-              "name": "devices",
+              "name": "pages",
               "link": "https://mobirise.com",
-              "size": 40,
+              "color": "#222",
               "family": "MobiriseIcons"
             }
           },
-          "number3": "<p>3</p>",
-          "title3": "What is Mobirise",
+          "title3": "Moderator Bookings",
           "subtitle3": "Awesome",
-          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "text3": "Clients and field managers access the booking portal, define their moderating requirements and timeframes, and book from the pool of moderators best-suited to the project. ",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
               "active": true,
               "class": "mbr-iconfont",
-              "name": "touch-swipe",
+              "name": "shoping-cart",
               "link": "https://mobirise.com",
-              "size": 40,
+              "color": "#222",
               "family": "MobiriseIcons"
             }
           },
-          "number4": "<p>4</p>",
-          "title4": "What is Mobirise",
+          "title4": "Feedback &amp; Training",
           "subtitle4": "Awesome",
-          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "text4": "Feedback and ratings on the portal from clients and field managers ensure that moderators are identified for the ARC Upskill Program thereby allowing us to provide an ongoing improvement to moderation services. ",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "cash",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title5": "Host Anywhere",
+          "subtitle5": "Awesome",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error voluptatibus possimus nobis quos minima pariatur aperiam, sunt commodi incidunt nam iusto ipsa distinctio ipsam!",
+          "button5": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "unlock",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title6": "Bootstrap 4",
+          "subtitle6": "Awesome",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut officia reiciendis id enim hic harum voluptatem repellat incidunt soluta cum quia facere sed, ea illo.",
+          "button6": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "features18",
-          "_anchor": "features18-e",
+          "_name": "features19",
+          "_anchor": "features19-k",
           "_styles": {
-            ".card .mbr-iconfont": {
-              "color": "#fff",
-              "border-color": "#fff"
-            },
-            ".mbr-table-cell": {
-              "vertical-align": "middle"
+            ".mbr-iconfont": {
+              "background": "@primaryColor",
+              "border-color": "@primaryColor"
             }
           }
         },
@@ -420,14 +311,8 @@
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "showFeatures": true,
-            "contentAlign": "center",
-            "columns": 3,
-            "showFeaturesImages": true,
+            "columns": "2",
             "iconsBgColor": "@primaryColor",
-            "showFeaturesTitles": false,
-            "showFeaturesTexts": true,
-            "showFeaturesButtons": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
             "parallax": false,
@@ -450,10 +335,11 @@
               "class": "mbr-iconfont",
               "name": "touch",
               "link": "https://mobirise.com",
+              "size": 48,
               "family": "MobiriseIcons"
             }
           },
-          "title1": "What is Mobirise",
+          "title1": "ARC MH - The Moderator Hub",
           "subtitle1": "Awesome",
           "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -461,12 +347,13 @@
             "iconFont": {
               "active": true,
               "class": "mbr-iconfont",
-              "name": "responsive",
+              "name": "touch-swipe",
               "link": "https://mobirise.com",
+              "size": 48,
               "family": "MobiriseIcons"
             }
           },
-          "title2": "What is Mobirise",
+          "title2": "ARC UP - Our Upskill Program",
           "subtitle2": "Awesome",
           "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -474,12 +361,13 @@
             "iconFont": {
               "active": true,
               "class": "mbr-iconfont",
-              "name": "setting",
+              "name": "responsive",
               "link": "https://mobirise.com",
+              "size": 48,
               "family": "MobiriseIcons"
             }
           },
-          "title3": "What is Mobirise",
+          "title3": "Responsive!",
           "subtitle3": "Awesome",
           "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -489,6 +377,7 @@
               "class": "mbr-iconfont",
               "name": "hot-cup",
               "link": "https://mobirise.com",
+              "size": 48,
               "family": "MobiriseIcons"
             }
           },
@@ -499,225 +388,130 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "features15",
-          "_anchor": "features15-f",
+          "_name": "features6",
+          "_anchor": "features6-2",
           "_styles": {
             ".mbr-iconfont": {
-              "background": "@primaryColor",
+              "color": "@primaryColor",
               "border-color": "@primaryColor"
             }
           }
         },
         {
+          "_inherit": "features8",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgicon": true,
             "showHeading": true,
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false,
-            "contentAlign": "center",
-            "columns": 3,
+            "showFeaturesImages": true,
             "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "containerColor1": "#f0f1f2",
-            "containerColor2": "#fffefd",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#616161",
-            "overlayOpacity": 0.8
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
           },
-          "bgicon": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "website-theme",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
-            }
-          },
-          "title": "Features with Gradient Background",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
           "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/06.jpg"
+            },
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "mobirise",
-              "link": "https://mobirise.com",
-              "color": "#222",
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "profile-settings",
+              "family": "icon54-v2",
+              "active": true
             }
           },
-          "title1": "What is Mobirise",
+          "title1": "Adam Rosenberg",
           "subtitle1": "Awesome",
-          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "text1": "+27 82-561-2206<br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"mailto:adam@africanresearchcouncil.org\">Email Adam</a>",
           "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/07.jpg"
+            },
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "responsive",
-              "link": "https://mobirise.com",
-              "color": "#222",
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "profile-voltage",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "https://mobirise.com"
             }
           },
-          "title2": "What is Mobirise",
+          "title2": "Mpho Matlapeng",
           "subtitle2": "Awesome",
-          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "text2": "+27 84-555-0786",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"mailto:mpho@africanresearchcouncil.org\">Email Mpho</a>",
           "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/08.jpg"
+            },
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "devices",
-              "link": "https://mobirise.com",
-              "color": "#222",
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "profile-lightbulb",
+              "family": "icon54-v2",
+              "active": true
             }
           },
-          "title3": "What is Mobirise",
+          "title3": "Thabo Mphate",
           "subtitle3": "Awesome",
-          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "touch-swipe",
-              "link": "https://mobirise.com",
-              "color": "#222",
-              "family": "MobiriseIcons"
-            }
-          },
-          "title4": "What is Mobirise",
-          "subtitle4": "Awesome",
-          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "text3": "+27 71-155-0725",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"mailto:thabo@africanresearchcouncil.org\">Email Thabo</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "features21",
-          "_anchor": "features21-d",
+          "title": "Get in Touch",
+          "text": "AFRICAN RESEARCH COUNCIL",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "_name": "features9",
+          "_anchor": "features9-l",
           "_styles": {
-            ".card .mbr-iconfont": {
-              "background": "@primaryColor",
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
               "border-color": "@primaryColor"
-            },
-            ".mbr-table-cell": {
-              "vertical-align": "middle"
             }
           }
         },
         {
           "_styles": {
-            "H1": {
-              "color": "#333333"
+            "p": {
+              "color": "#000"
             }
           },
           "_params": {
-            "showTitle": false,
-            "showSubTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
-            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#eff5f5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.1
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
-          "title": "Features",
-          "title2": "Our advantages",
-          "text": "<li>Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.</li><br><li>Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.</li><br><li>Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</li>",
-          "roundBlockText": "For<br> <b>500000</b><br> users",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mac1.png"
-            },
-            "iconFont": {
-              "active": false,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "pencil",
-              "link": "#modalWindow",
-              "size": 0,
-              "color": "#e6e6e6",
-              "family": "et-line"
-            },
-            "video": {
-              "active": false,
-              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
+          "text": "Copyright (c) 2018 African Research Council",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-a"
-        },
-        {
-          "_styles": {
-            ".count": {
-              "color": "#74a3c7"
-            }
-          },
-          "_params": {
-            "countersColor": "#74a3c7",
-            "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/counters/01.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "containerColor1": "#f7f7f7",
-            "containerColor2": "#f0f0f0",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.75
-          },
-          "title1": "Pictures",
-          "title2": "Mobiles",
-          "title3": "Desktops",
-          "title4": "Videos",
-          "subtitle1": "subtitle",
-          "subtitle2": "subtitle",
-          "subtitle3": "subtitle",
-          "subtitle4": "subtitle",
-          "number1": "1470",
-          "number2": "258",
-          "number3": "369",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "counters1",
-          "_anchor": "counters1-c"
+          "_name": "footer4",
+          "_anchor": "footer4-8"
         }
       ]
     }
